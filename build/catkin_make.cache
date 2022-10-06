@@ -1,0 +1,2 @@
+atr_pkg:ssr_pkg:wpr_simulation
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/yanyuming/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yanyuming/catkin_ws/install -G Unix Makefiles
