@@ -1,8 +1,8 @@
-cpp launch 
+python launch 
 
 ```
 cd ~
-git clone -b launch https://github.com/yym68686/ROS-Lab.git
+git clone -b launch-python https://github.com/yym68686/ROS-Lab.git
 cd ~/catkin_ws/src
-roslaunch ssr_pkg node.launch
+roslaunch atr_pkg node.launch
 ```
