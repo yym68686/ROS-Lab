@@ -1,0 +1,8 @@
+<launch>
+	<!-- pkg: 包名 type: 节点 name: 名字 -->
+    <node pkg="ssr_pkg" type="yao_node" name="yao_node"/>
+    <!-- 将 chao_node 的信息显示到另一个终端里，使用 launch-prefix -->
+    <node pkg="ssr_pkg" type="chao_node" name="chao_node"/>
+    <!-- output 表示输出到屏幕，不然不会显示订阅者节点的信息 -->
+    <node pkg="atr_pkg" type="ma_node" name="ma_node" launch-prefix="gnome-terminal -e"/>
+</launch>
