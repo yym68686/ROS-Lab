@@ -1,9 +1,9 @@
-vel_node python
+lidar_node cpp
 
 ```
 cd ~
-git clone -b vel-node-python https://github.com/yym68686/ROS-Lab.git
+git clone -b lidar-cpp https://github.com/yym68686/ROS-Lab.git
 cd ~/catkin_ws/src
 roslaunch wpr_simulation wpb_simple.launch
-rosrun vel_pkg vel_node.py
+rosrun lidar_pkg lidar_node.cpp
 ```

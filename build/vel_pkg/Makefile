@@ -182,81 +182,6 @@ vel_node/fast:
 	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f vel_pkg/CMakeFiles/vel_node.dir/build.make vel_pkg/CMakeFiles/vel_node.dir/build
 .PHONY : vel_node/fast
 
-# Convenience name for target.
-vel_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vel_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-.PHONY : vel_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_nodejs: vel_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-geometry_msgs_generate_messages_nodejs/fast:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f vel_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make vel_pkg/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-.PHONY : geometry_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-vel_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vel_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : vel_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: vel_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f vel_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make vel_pkg/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-vel_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vel_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : vel_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: vel_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f vel_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make vel_pkg/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-vel_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vel_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-.PHONY : vel_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_eus: vel_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_eus
-
-# fast build rule for target.
-geometry_msgs_generate_messages_eus/fast:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f vel_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make vel_pkg/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-.PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-vel_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 vel_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : vel_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: vel_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/yanyuming/catkin_ws/build && $(MAKE) -f vel_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make vel_pkg/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
 src/vel_node.o: src/vel_node.cpp.o
 
 .PHONY : src/vel_node.o
@@ -298,11 +223,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... vel_node"
-	@echo "... geometry_msgs_generate_messages_nodejs"
-	@echo "... geometry_msgs_generate_messages_py"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... src/vel_node.o"
 	@echo "... src/vel_node.i"
 	@echo "... src/vel_node.s"

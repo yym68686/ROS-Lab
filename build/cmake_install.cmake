@@ -133,6 +133,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/yanyuming/catkin_ws/build/gtest/cmake_install.cmake")
   include("/home/yanyuming/catkin_ws/build/atr_pkg/cmake_install.cmake")
   include("/home/yanyuming/catkin_ws/build/ssr_pkg/cmake_install.cmake")
+  include("/home/yanyuming/catkin_ws/build/lidar_pkg/cmake_install.cmake")
   include("/home/yanyuming/catkin_ws/build/vel_pkg/cmake_install.cmake")
   include("/home/yanyuming/catkin_ws/build/wpr_simulation/cmake_install.cmake")
 

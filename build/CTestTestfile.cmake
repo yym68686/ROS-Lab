@@ -7,5 +7,6 @@
 subdirs("gtest")
 subdirs("atr_pkg")
 subdirs("ssr_pkg")
+subdirs("lidar_pkg")
 subdirs("vel_pkg")
 subdirs("wpr_simulation")
