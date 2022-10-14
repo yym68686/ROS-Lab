@@ -6,6 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("atr_pkg")
+subdirs("map_pkg")
 subdirs("ssr_pkg")
 subdirs("lidar_pkg")
 subdirs("vel_pkg")

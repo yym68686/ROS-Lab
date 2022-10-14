@@ -1,9 +1,18 @@
-lidar_node cpp
+arbotix
 
 ```
 cd ~
-git clone -b lidar-cpp https://github.com/yym68686/ROS-Lab.git
+git clone -b arbotix https://github.com/yym68686/ROS-Lab.git
 cd ~/catkin_ws/src
-roslaunch wpr_simulation wpb_simple.launch
-rosrun lidar_pkg lidar_node.cpp
+oslaunch urdf01_rviz demo07_control.launch
+rostopic pub -r 10 /cmd_vel geometry_msgs/Twist "linear:
+  x: 1.0
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 1.0"
 ```
+
+如果地图跟着小车一起动，需要在 Grid 设置里把 Reference Frame 设置为 odom
