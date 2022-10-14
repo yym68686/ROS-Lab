@@ -1,6 +1,7 @@
 arbotix
 
 ```
+sudo apt install ros-noetic-arbotix
 cd ~
 git clone -b arbotix https://github.com/yym68686/ROS-Lab.git
 cd ~/catkin_ws/src
