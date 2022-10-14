@@ -16,3 +16,7 @@ angular:
 ```
 
 如果地图跟着小车一起动，需要在 Grid 设置里把 Reference Frame 设置为 odom
+
+```
+git add . && git commit -m "arbotix" && git push origin $(git name-rev --name-only HEAD)
+```
