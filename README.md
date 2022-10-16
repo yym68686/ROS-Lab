@@ -1,6 +1,7 @@
 使用 ros_control 运动控制
 
 ```
+sudo apt-get install -y ros-noetic-teleop-twist-keyboard
 cd ~
 git clone -b arbotix https://github.com/yym68686/ROS-Lab.git
 cd ~/catkin_ws/src
