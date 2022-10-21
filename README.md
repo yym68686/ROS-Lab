@@ -1,9 +1,9 @@
-使用 ros_control 运动控制 结合 rviz gazebo
+使用 ros_control 运动控制 结合 rviz gazebo 生成 点云深度图
 
 ```
 sudo apt-get install -y ros-noetic-teleop-twist-keyboard
 cd ~
-git clone -b move-rviz https://github.com/yym68686/ROS-Lab.git
+git clone -b kinect https://github.com/yym68686/ROS-Lab.git
 cd ~/catkin_ws/src
 roslaunch urdf02_gezebo demo03_env.launch
 roslaunch urdf02_gezebo demo04_sensor.launch
@@ -21,5 +21,5 @@ angular:
 利用键盘控制
 
 ```
-git add . && git commit -m "move-rviz" && git push origin $(git name-rev --name-only HEAD)
+git add . && git commit -m "kinect" && git push origin $(git name-rev --name-only HEAD)
 ```
