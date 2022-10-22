@@ -7,6 +7,11 @@
       },
       "includePath": [
         "/opt/ros/noetic/include/**",
+        "/home/yanyuming/catkin_ws/src/atr_pkg/include/**",
+        "/home/yanyuming/catkin_ws/src/lidar_pkg/include/**",
+        "/home/yanyuming/catkin_ws/src/map_pkg/include/**",
+        "/home/yanyuming/catkin_ws/src/ssr_pkg/include/**",
+        "/home/yanyuming/catkin_ws/src/vel_pkg/include/**",
         "/home/yanyuming/catkin_ws/src/wpr_simulation/include/**",
         "/usr/include/**"
       ],

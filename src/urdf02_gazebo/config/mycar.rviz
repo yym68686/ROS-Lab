@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /PointCloud21
       Splitter Ratio: 0.5
-    Tree Height: 430
+    Tree Height: 371
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -23,7 +23,7 @@ Panels:
   - Class: rviz/Time
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScan
+    SyncSource: PointCloud2
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -199,10 +199,10 @@ Visualization Manager:
       Unreliable: false
       Value: false
       Visibility:
-        "": true
         Grid: true
         LaserScan: true
         Odometry: true
+        PointCloud2: true
         RobotModel: true
         TF: true
         Value: true
@@ -297,5 +297,5 @@ Window Geometry:
   Views:
     collapsed: true
   Width: 790
-  X: 659
-  Y: 144
+  X: 407
+  Y: 112
